@@ -1,4 +1,4 @@
-# JQuery Study
+# jQuery Study
 
 jQuery is a fast, lightweight, and feature-rich JavaScript library that simplifies HTML document manipulation, event handling, animation, and Ajax interactions. It provides a convenient and efficient way to interact with HTML elements, traverse the DOM (Document Object Model), handle events, and make asynchronous requests to the server.
 
