@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+</head>
+<body>
+    <section class="container">
+        <article class="data">
+            <p><b>동해물과</b> 백두산이 <span id="tag">마르고</span></p>
+            <p>닳도록 <span id="text">하느님이 </span> 보우하사</p>
+            <p>우리나라 <button name="okbtn">만세</button> 무궁화 삼천리 화려강산</p>
+            <div id="console"></div>
+        </article>
+    </section><br><br>
+    <script>
+        $(document).ready(function(){
+            var sw = true;
+            //p요소를 클릭하면 클릭된 요소의 태그를 포함하여 아이디가 console인 곳에 텍스트 형태로 출력
+            $("p").click(function(){
+                $("#console").text($(this).html());
+            });
+        });
+    </script>
+</body>
+</html>
